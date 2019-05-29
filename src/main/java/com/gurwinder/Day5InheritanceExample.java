@@ -2,6 +2,8 @@ package com.gurwinder;
 
 import com.gurwinder.college.Faculty;
 import com.gurwinder.college.Student;
+import com.gurwinder.hardware.Desktop;
+import sun.security.krb5.internal.crypto.Des;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -30,10 +32,12 @@ public class Day5InheritanceExample {
 
         Student s1 = new Student();
 
-        Day5InheritanceExample D= new Day5InheritanceExample();
+        Desktop d=new Desktop();
+        Desktop d2= new Desktop("Keyboard","Screen");
+        /*Day5InheritanceExample D= new Day5InheritanceExample();
 
         Student.count++;
-        s1.count++;
+        s1.count++;*/
 
         SimpleDateFormat sdf = new SimpleDateFormat("dd-M-yyyy hh:mm:ss");
         String dateInString = "31-08-1982 10:20:56";

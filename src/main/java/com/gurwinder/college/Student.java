@@ -1,5 +1,9 @@
 package com.gurwinder.college;
 
+import com.gurwinder.hardware.Computer;
+
+import java.util.Date;
+
 public class Student extends Person {
     private String courseName;
     static public int count;
@@ -17,6 +21,49 @@ public class Student extends Person {
     private float totalMarks;
     private float percentage;
     private String result;
+
+    public Student() {
+    }
+
+    /**
+     *
+     * @param courseName
+     * @param marks
+     * @param totalMarks
+     * @param percentage
+     * @param result
+     */
+    public Student(String courseName, float[] marks, float totalMarks, float percentage, String result) {
+        this.courseName = courseName;
+        this.marks = marks;
+        this.totalMarks = totalMarks;
+        this.percentage = percentage;
+        this.result = result;
+    }
+
+    /**
+     *
+     * @param id
+     * @param firstName
+     * @param lastName
+     * @param gender
+     * @param dateOfBirth
+     * @param emailId
+     * @param computer
+     * @param courseName
+     * @param marks
+     * @param totalMarks
+     * @param percentage
+     * @param result
+     */
+    public Student(int id, String firstName, String lastName, String gender, Date dateOfBirth, String emailId, Computer computer, String courseName, float[] marks, float totalMarks, float percentage, String result) {
+        super(id, firstName, lastName, gender, dateOfBirth, emailId, computer);
+        this.courseName = courseName;
+        this.marks = marks;
+        this.totalMarks = totalMarks;
+        this.percentage = percentage;
+        this.result = result;
+    }
 
     public String getCourseName() {
         return courseName;
@@ -154,9 +201,9 @@ public class Student extends Person {
     }
 
 
+
     @Override
     public void display() {
-
 
     }
 }

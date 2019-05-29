@@ -21,5 +21,36 @@ public class Laptop extends  Computer{
         this.weight = weight;
     }
 
+    public Laptop() {
+    }
 
+    /**
+     *
+     * @param screensize
+     * @param weight
+     */
+    public Laptop(String screensize, Float weight) {
+        this.screensize = screensize;
+        this.weight = weight;
+    }
+
+    /**
+     *
+     * @param id
+     * @param manufacturerName
+     * @param screensize
+     * @param weight
+     */
+    public Laptop(int id, String manufacturerName, String screensize, Float weight) {
+        super(id, manufacturerName);
+        this.screensize = screensize;
+        this.weight = weight;
+    }
+
+
+
+    @Override
+    public void display() {
+
+    }
 }
