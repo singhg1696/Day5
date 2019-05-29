@@ -12,6 +12,10 @@ public class Day5InheritanceExample {
 
         Student s1 = new Student();
 
+
+        Student.count++;
+        s1.count++;
+
         SimpleDateFormat sdf = new SimpleDateFormat("dd-M-yyyy hh:mm:ss");
         String dateInString = "31-08-1982 10:20:56";
 

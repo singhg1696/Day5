@@ -2,6 +2,8 @@ package com.gurwinder.college;
 
 public class Student extends Person {
     private String courseName;
+    static public int count;
+
 
     public float[] getMarks() {
         return marks;
