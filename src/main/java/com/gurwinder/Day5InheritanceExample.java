@@ -8,6 +8,21 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Day5InheritanceExample {
+    int y;
+    static int p;
+    {
+        y=100;
+        int a =200;
+    }
+
+    static{
+        p=1000;
+
+        y=3000;
+
+    }
+
+
     public static void main(String[] args) {
 
         Student s1 = new Student();
