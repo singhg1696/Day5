@@ -13,12 +13,15 @@ public class Day5InheritanceExample {
     {
         y=100;
         int a =200;
+        System.out.println("first blockkkkkkkkkkkkkkkkkkk");
+        //static int l0=34;//cant do that
     }
 
     static{
         p=1000;
 
-        y=3000;
+        System.out.println("second blockkkkkkkkkkkkkkkk");
+      //  y=3000;
 
     }
 
@@ -27,6 +30,7 @@ public class Day5InheritanceExample {
 
         Student s1 = new Student();
 
+        Day5InheritanceExample D= new Day5InheritanceExample();
 
         Student.count++;
         s1.count++;
