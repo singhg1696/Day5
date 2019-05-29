@@ -1,6 +1,8 @@
 package com.gurwinder.hardware;
 
-public class Computer {
+import com.gurwinder.other.IDisplay;
+
+public abstract class Computer implements IDisplay {
 
 
     private int id;

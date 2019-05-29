@@ -135,8 +135,8 @@ public class Student extends Person {
                            "---------------------------------- \n" +
                            "Student ID : " + this.getId() + "\n" +
                            "Full Name : " + this.getFullName() + "\n" +
-                           "Gender : ” + this.getGender() + “\n" +
-                           "Birth Date : ” + this.getBirthDate() + “\n" );
+                           "Gender : " + this.getGender() + "\n" +
+                           "Birth Date : " + this.getDateOfBirth() + "\n" );
 
         for(int i = 0; i < this.marks.length; i++)
         {
