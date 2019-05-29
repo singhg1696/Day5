@@ -41,4 +41,14 @@ public class Faculty extends Person {
         this.salary = salary;
     }
 
+    @Override
+    public void display() {
+
+    }
+
+    @Override
+    public void print()
+    {
+
+    }
 }

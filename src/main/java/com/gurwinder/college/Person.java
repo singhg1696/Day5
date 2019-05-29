@@ -1,10 +1,11 @@
 package com.gurwinder.college;
 
 import com.gurwinder.hardware.Computer;
+import com.gurwinder.other.IDisplay;
 
 import java.util.Date;
 
-public class Person {
+public abstract class Person implements IDisplay {
     private int id;
     private String firstName;
     private String lastName;

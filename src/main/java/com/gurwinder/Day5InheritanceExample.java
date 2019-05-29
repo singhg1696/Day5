@@ -26,6 +26,5 @@ public class Day5InheritanceExample {
         s1.setCourseName("Mobile Application Development Technology");
         s1.setPercentage(78);
 
-
     }
 }

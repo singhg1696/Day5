@@ -133,8 +133,8 @@ public class Student extends Person {
                 "---------------------------------- \n" +
                            "    ------STUDENT INFO------      \\n" +
                            "---------------------------------- \n" +
-                           "Student ID : ” + this.getId() + “\n" +
-                           "Full Name : ” + this.getFullname() + “\n" +
+                           "Student ID : " + this.getId() + "\n" +
+                           "Full Name : " + this.getFullName() + "\n" +
                            "Gender : ” + this.getGender() + “\n" +
                            "Birth Date : ” + this.getBirthDate() + “\n" );
 
@@ -152,5 +152,9 @@ public class Student extends Person {
     }
 
 
+    @Override
+    public void display() {
 
+
+    }
 }
