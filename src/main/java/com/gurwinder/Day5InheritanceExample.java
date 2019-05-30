@@ -1,6 +1,7 @@
 package com.gurwinder;
 
 import com.gurwinder.college.Faculty;
+import com.gurwinder.college.Person;
 import com.gurwinder.college.Student;
 import com.gurwinder.hardware.Desktop;
 import sun.security.krb5.internal.crypto.Des;
@@ -30,14 +31,14 @@ public class Day5InheritanceExample {
 
     public static void main(String[] args) {
 
-        Student s1 = new Student();
+      /*  Student s1 = new Student();
 
         Desktop d=new Desktop();
         Desktop d2= new Desktop("Keyboard","Screen");
-        /*Day5InheritanceExample D= new Day5InheritanceExample();
+        *//*Day5InheritanceExample D= new Day5InheritanceExample();
 
         Student.count++;
-        s1.count++;*/
+        s1.count++;*//*
 
         SimpleDateFormat sdf = new SimpleDateFormat("dd-M-yyyy hh:mm:ss");
         String dateInString = "31-08-1982 10:20:56";
@@ -51,7 +52,11 @@ public class Day5InheritanceExample {
         Faculty f1=new Faculty();
 
         s1.setCourseName("Mobile Application Development Technology");
-        s1.setPercentage(78);
+        s1.setPercentage(78);*/
 
+        Person p;
+        Student s1 = new Student();
+        p=s1;
+        ((Student) p).setCourseName("");
     }
 }
