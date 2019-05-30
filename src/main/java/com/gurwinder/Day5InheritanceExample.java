@@ -57,6 +57,14 @@ public class Day5InheritanceExample {
         Person p;
         Student s1 = new Student();
         p=s1;
-        ((Student) p).setCourseName("");
+        p.display();
+        if (p instanceof Student)
+        {
+            Student s=(Student)p;
+        }else if (p instanceof Faculty)
+        {
+            Faculty f=(Faculty)p;
+        }
+       // ((Student) p).setCourseName("");
     }
 }
